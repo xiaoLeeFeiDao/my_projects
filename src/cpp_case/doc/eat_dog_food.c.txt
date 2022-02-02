@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Person {
+    char m_Name[64];
+    int m_Age;
+};
+struct Dog{
+    char m_Name[64];
+    int m_Age;
+};
+
+void eatDogFood(struct Dog *d)
+{
+    printf("%s is eatting Dog's food\n", d->m_Name);
+    return;
+}
+
+int main()
+{
+    struct Person p;
+    struct Dog d;
+    strcpy(p.m_Name, "laowang");
+    strcpy(d.m_Name, "wangcai");
+    eatDogFood(&d);
+    eatDogFood(&p);
+
+    return 0;
+
+}

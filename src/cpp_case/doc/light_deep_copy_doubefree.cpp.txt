@@ -1,0 +1,63 @@
+/*
+ * @Description: 深拷贝和浅拷贝
+ * @Author: stone
+ * @Date: 2020-02-05 17:39:39
+ * @LastEditTime : 2020-02-06 08:45:26
+ * @LastEditors  : stone
+ */
+
+#include "test.h"
+#include <cstring>
+#include <iostream>
+using namespace std;
+
+class Person {
+public:
+    Person(const char* name, int age)
+    {
+        cout << "Person 有参函数的调用" << endl;
+        m_Name = (char*)malloc(strlen(name) + 1); //strlen函数如果入参是char*,则需包含头文件为<cstring>
+        // memset(m_Name, 0, sizeof(strlen(m_Name)));
+        strcpy(m_Name, name);
+        m_Age = age;
+    }
+    void showInfo()
+    {
+        cout << "m_Name: " << m_Name << " m_Age: " << m_Age << endl;
+        return;
+    }
+    ~Person()
+    {
+        cout << "Person 析构函数的调用" << endl;
+        if (m_Name != NULL) {
+            // cout << "test11111" << endl;
+            free(m_Name);
+            // cout << "test22222" << endl;
+            m_Name = NULL;
+            // cout << "test33333" << endl;
+        }
+    }
+
+    // private:
+    char* m_Name;
+    int m_Age;
+};
+/**
+ * @description: 
+ * @param : 
+ * @return: 
+ */
+void test20()
+{
+    Person p1("tom", 18);
+    // p1.showInfo();
+    Person p11(p1);
+    cout << "p11 is done? " << endl;
+    // p11.showInfo();
+    return;
+}
+int main()
+{
+    test20();
+    return 0;
+}
