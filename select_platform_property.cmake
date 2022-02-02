@@ -8,7 +8,7 @@ endfunction(CatCommonUsedVariableValue)
 
 get_cmake_property(_variableNames VARIABLES)
 foreach (_variableName ${_variableNames})
-    message(STATUS "${_variableName}=${${_variableName}}")
+    # message(STATUS "${_variableName}=${${_variableName}}")
 endforeach()
 
 function(SelectPlatform CMAKE_BUILD_TYPE)
@@ -68,6 +68,6 @@ function(SelectPlatform CMAKE_BUILD_TYPE)
 
     add_definitions(-fstack-protector-all -fPIC -D_FORTIFY_SOURCE=2 -O2 -Wunused-variable -D_GNU_SOURCE -D__USE_XOPEN -Wmissing-declarations)
     # CatCommonUsedVariableValue()
-    execute_process(COMMAND "${CMAKE_COMMAND}" "-E" "environment")
+    # execute_process(COMMAND "${CMAKE_COMMAND}" "-E" "environment")
 
 endfunction()
