@@ -4,7 +4,7 @@ aux_source_directory(. CURRENT_SRC_LIST)
 include(get_module_info.cmake)
 GetModules()
 add_executable(${PROJECT_NAME} ${CURRENT_SRC_LIST})
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 target_link_libraries(${PROJECT_NAME} cpp_case securec)
 
 

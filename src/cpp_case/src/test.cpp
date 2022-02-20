@@ -10,7 +10,7 @@
  */
 void test()
 {
-     test42();
-     testEg7();
+     Test01();
+    //  testEg7();
     return;
 }

@@ -7,12 +7,13 @@
  */
 #ifndef _TEST_H
 #define _TEST_H
-#include "test.h"
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 void test();
+void Test01();
+void Test02();
 void test11();
 void test12();
 void test13();
@@ -45,6 +46,7 @@ void test39();
 void test40();
 void test41();
 void test42();
+void test43();
 void testEg1();
 void testEg2();
 void testEg3();
