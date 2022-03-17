@@ -10,7 +10,8 @@
 #include <string>
 using namespace std;
 
-class Base {
+class Base
+{
 public:
     int m_A;
 
@@ -20,10 +21,13 @@ protected:
 private:
     int m_C;
 };
-class Son : public Base {
+
+class Son : public Base
+{
 public:
     int m_D;
 };
+
 /**
  * @description: 
  * @param : 

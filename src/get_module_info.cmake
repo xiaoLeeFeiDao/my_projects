@@ -1,15 +1,4 @@
 cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
-macro(SUBDIRLIST result curdir)
-  file(GLOB children RELATIVE ${curdir} ${curdir}/*)
-  set(dirlist "")
-  foreach(child ${children})
-    if(IS_DIRECTORY ${curdir}/${child})
-      list(APPEND dirlist ${child})
-    endif()
-  endforeach()
-  set(${result} ${dirlist})
-endmacro()
-
 macro(SUBDIRLIST_CUSTOM result curdir objDirName)
     file(GLOB children RELATIVE ${curdir} ${curdir}/*)
     set(dirlist "")
@@ -41,6 +30,17 @@ macro (AddSources)  #遍历工程文件
     if (_relPath) # propagate SRCS to parent directory
         set (SRCS ${SRCS} PARENT_SCOPE)
     endif()
+endmacro()
+
+macro(SUBDIRLIST result curdir)
+  file(GLOB children RELATIVE ${curdir} ${curdir}/*)
+  set(dirlist "")
+  foreach(child ${children})
+    if(IS_DIRECTORY ${curdir}/${child})
+      list(APPEND dirlist ${child})
+    endif()
+  endforeach()
+  set(${result} ${dirlist})
 endmacro()
 
 function(GetModules)

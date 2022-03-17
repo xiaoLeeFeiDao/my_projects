@@ -7,6 +7,7 @@
  */
 #ifndef _TEST_H
 #define _TEST_H
+#include "../src/namespace.h"
 #ifdef __cplusplus
 extern "C" {
 #endif

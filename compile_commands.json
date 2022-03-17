@@ -1,0 +1,632 @@
+[
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/network_communications/include -I/home/stone/workspace/my_projects/lib/securec/include -I/home/stone/workspace/my_projects/src/cpp_case -I/home/stone/workspace/my_projects/lib/securec -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -D CPP_LEARN -o src/CMakeFiles/main.out.dir/main.cpp.o -c /home/stone/workspace/my_projects/src/main.cpp",
+  "file": "/home/stone/workspace/my_projects/src/main.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/01_c++书写HelloWorld.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/01_c++书写HelloWorld.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/01_c++书写HelloWorld.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/02_双冒号作用域运算符.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/02_双冒号作用域运算符.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/02_双冒号作用域运算符.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/11_引用--参数的传递方式.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/11_引用--参数的传递方式.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/11_引用--参数的传递方式.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/12_指针的引用.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/12_指针的引用.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/12_指针的引用.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/13_常量的引用.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/13_常量的引用.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/13_常量的引用.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/14_内联函数.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/14_内联函数.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/14_内联函数.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/15_函数的默认参数及占位参数.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/15_函数的默认参数及占位参数.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/15_函数的默认参数及占位参数.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/16_函数的重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/16_函数的重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/16_函数的重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/17_封装.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/17_封装.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/17_封装.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/18_构造和析构.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/18_构造和析构.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/18_构造和析构.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/19_构造函数的调用规则.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/19_构造函数的调用规则.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/19_构造函数的调用规则.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/20_深拷贝和浅拷贝.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/20_深拷贝和浅拷贝.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/20_深拷贝和浅拷贝.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/21_初始化列表.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/21_初始化列表.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/21_初始化列表.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/22_类对象作为类成员.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/22_类对象作为类成员.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/22_类对象作为类成员.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/23_new运算符.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/23_new运算符.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/23_new运算符.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/24_静态变量成员属性.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/24_静态变量成员属性.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/24_静态变量成员属性.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/25_单例模式.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/25_单例模式.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/25_单例模式.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/26_打印机单例模式.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/26_打印机单例模式.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/26_打印机单例模式.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/27_对象模型初探.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/27_对象模型初探.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/27_对象模型初探.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/28_this指针.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/28_this指针.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/28_this指针.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/29_空指针访问成员函数.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/29_空指针访问成员函数.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/29_空指针访问成员函数.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/30_常函数和常对象.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/30_常函数和常对象.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/30_常函数和常对象.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/31_友元函数.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/31_友元函数.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/31_友元函数.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/32_加号运符重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/32_加号运符重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/32_加号运符重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/33_递增运算符重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/33_递增运算符重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/33_递增运算符重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/34_指针运算符的重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/34_指针运算符的重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/34_指针运算符的重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/35_赋值运算符重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/35_赋值运算符重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/35_赋值运算符重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/36_关系运算符重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/36_关系运算符重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/36_关系运算符重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/37_函数调用运算符重载.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/37_函数调用运算符重载.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/37_函数调用运算符重载.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/38_继承.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/38_继承.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/38_继承.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/39_继承中的对象模型.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/39_继承中的对象模型.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/39_继承中的对象模型.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/40_继承中的构造和析构.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/40_继承中的构造和析构.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/40_继承中的构造和析构.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/41_继承中的同名成员处理.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/41_继承中的同名成员处理.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/41_继承中的同名成员处理.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/42_继承中静态成员的处理.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/42_继承中静态成员的处理.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/42_继承中静态成员的处理.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/43_多继承的概念以及问题.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/43_多继承的概念以及问题.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/43_多继承的概念以及问题.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg1_设计一个类，求圆的周长.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg1_设计一个类，求圆的周长.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg1_设计一个类，求圆的周长.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg2_设计一个学生类.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg2_设计一个学生类.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg2_设计一个学生类.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg3_设置一个person类-属性方法访问权限.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg3_设置一个person类-属性方法访问权限.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg3_设置一个person类-属性方法访问权限.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg4_set_cube_class.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg4_set_cube_class.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg4_set_cube_class.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg5_judgeRelationCirclePoint.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg5_judgeRelationCirclePoint.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg5_judgeRelationCirclePoint.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg6_package_array_class.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg6_package_array_class.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg6_package_array_class.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/eg7_package_string_class.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/eg7_package_string_class.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/eg7_package_string_class.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/game1.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/game1.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/game1.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/game2.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/game2.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/game2.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/game_push_boxes.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/game_push_boxes.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/game_push_boxes.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/namespace.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/namespace.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/namespace.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/c++ -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/src/cpp_case/src -I/home/stone/workspace/my_projects/src/cpp_case/include -I/home/stone/workspace/my_projects/src/cpp_case -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o src/cpp_case/CMakeFiles/cpp_case.dir/src/test.cpp.o -c /home/stone/workspace/my_projects/src/cpp_case/src/test.cpp",
+  "file": "/home/stone/workspace/my_projects/src/cpp_case/src/test.cpp"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/fscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/fscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/fscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/fwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/fwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/fwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/gets_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/gets_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/gets_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/memcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/memmove_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memmove_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memmove_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/memset_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memset_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memset_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/scanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/scanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/scanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/securecutil.c.o -c /home/stone/workspace/my_projects/lib/securec/src/securecutil.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/securecutil.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/secureinput_a.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureinput_a.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureinput_a.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/secureinput_w.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureinput_w.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureinput_w.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/secureprintoutput_a.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_a.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_a.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/secureprintoutput_w.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_w.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_w.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/snprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/snprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/snprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/sprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/sprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/sprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/sscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/sscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/sscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/strcat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strcat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strcat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/strcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/strncat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strncat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strncat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/strncpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strncpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strncpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/strtok_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strtok_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strtok_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/swprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/swprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/swprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/swscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/swscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/swscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vfscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vfscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vfscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vfwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vfwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vfwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vsnprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsnprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsnprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vsprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vsscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vswprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vswprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vswprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vswscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vswscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vswscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/vwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wcscat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcscat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcscat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wcscpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcscpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcscpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wcsncat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcsncat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcsncat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wcsncpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcsncpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcsncpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wcstok_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcstok_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcstok_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wmemcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wmemcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wmemcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wmemmove_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wmemmove_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wmemmove_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -Dsecurec_EXPORTS -I/home/stone/workspace/my_projects/lib/securec/./include -I/home/stone/workspace/my_projects/lib/securec -g -fPIC   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/securec.dir/src/wscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/fscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/fscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/fscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/fwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/fwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/fwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/gets_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/gets_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/gets_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/memcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/memmove_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memmove_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memmove_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/memset_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/memset_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/memset_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/scanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/scanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/scanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/securecutil.c.o -c /home/stone/workspace/my_projects/lib/securec/src/securecutil.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/securecutil.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/secureinput_a.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureinput_a.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureinput_a.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/secureinput_w.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureinput_w.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureinput_w.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/secureprintoutput_a.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_a.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_a.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/secureprintoutput_w.c.o -c /home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_w.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/secureprintoutput_w.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/snprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/snprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/snprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/sprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/sprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/sprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/sscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/sscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/sscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/strcat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strcat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strcat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/strcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/strncat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strncat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strncat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/strncpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strncpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strncpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/strtok_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/strtok_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/strtok_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/swprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/swprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/swprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/swscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/swscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/swscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vfscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vfscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vfscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vfwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vfwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vfwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vsnprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsnprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsnprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vsprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vsscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vsscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vsscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vswprintf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vswprintf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vswprintf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vswscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vswscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vswscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/vwscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/vwscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/vwscanf_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wcscat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcscat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcscat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wcscpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcscpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcscpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wcsncat_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcsncat_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcsncat_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wcsncpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcsncpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcsncpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wcstok_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wcstok_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wcstok_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wmemcpy_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wmemcpy_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wmemcpy_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wmemmove_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wmemmove_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wmemmove_s.c"
+},
+{
+  "directory": "/home/stone/workspace/my_projects/build",
+  "command": "/bin/clang-13 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D__USE_XOPEN -I/home/stone/workspace/my_projects/lib/securec/./include -g   -fstack-protector-all -fPIC -O2 -Wunused-variable -Wmissing-declarations -o lib/securec/CMakeFiles/static_securec.dir/src/wscanf_s.c.o -c /home/stone/workspace/my_projects/lib/securec/src/wscanf_s.c",
+  "file": "/home/stone/workspace/my_projects/lib/securec/src/wscanf_s.c"
+}
+]

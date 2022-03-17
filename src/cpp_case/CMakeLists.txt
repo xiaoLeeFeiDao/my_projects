@@ -1,6 +1,8 @@
 project(cpp_case)
 cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
+
+include_directories(src)
 include_directories(include)
 aux_source_directory(src OBJ_SRC_LIST)
 add_library(${PROJECT_NAME} ${OBJ_SRC_LIST})

@@ -13,6 +13,7 @@ endforeach()
 
 function(SelectPlatform CMAKE_BUILD_TYPE)
     message(STATUS "operation system is ${CMAKE_SYSTEM}")
+    set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
     if(WIN32)  
         message(STATUS "platform is ${CMAKE_SYSTEM_NAME}")
     elseif(APPLE)  

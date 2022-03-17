@@ -7,15 +7,15 @@
  * @FilePath: /my_projects/src/main.cpp
  * @Copyright © 2000-2020 lldao9527@139.com All Rights Reserved.
  */
-#include "test.h"
 #include "securec.h"
+#include "test.h"
 #include <errno.h>
 #include <iostream>
 #include <limits.h>
 // #include "find_string_todo.h"
 
 using namespace std;
-int main(int, char**)
+int main(int, char **)
 {
 #ifdef CPP_LEARN
     test();

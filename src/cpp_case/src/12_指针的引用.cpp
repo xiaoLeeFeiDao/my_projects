@@ -12,6 +12,7 @@ using namespace std;
 struct Person {
     int age;
 };
+
 /**
  * @description:c语言中的外部调用前定义空指针，内部申请空间 
  * @param : 
@@ -24,6 +25,7 @@ static void allocSpace01(Person** p)
     cout << "Person p's age is " << (*p)->age << endl;
     return;
 }
+
 /**
  * @description: 
  * @param : 
@@ -36,6 +38,7 @@ static void allocSpace02(Person*& p)
     cout << "Person p's age is " << p->age << endl;
     return;
 }
+
 /**
  * @description: 
  * @param : 
@@ -48,6 +51,7 @@ void test12()
     if (p != NULL) {
         free(p);
     }
+
     allocSpace02(p);
     if (p != NULL) {
         free(p);

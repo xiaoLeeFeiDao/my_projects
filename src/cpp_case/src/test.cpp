@@ -1,16 +1,17 @@
 #include "test.h"
+#include "namespace.h"
 #include <iostream>
 #include <stdio.h>
 /*
- * @Description: 
+ * @Description:
  * @Author: stone
  * @Date: 2020-01-19 16:42:13
- * @LastEditTime: 2020-03-05 12:13:25
+ * @LastEditTime: 2022-03-13 13:39:02
  * @LastEditors: stone
  */
 void test()
 {
-     Test01();
+    test37();
     //  testEg7();
     return;
 }
