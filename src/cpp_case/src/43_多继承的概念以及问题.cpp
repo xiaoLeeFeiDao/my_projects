@@ -26,6 +26,7 @@ class Son:public Base1, public Base2 {
         int m_D;
 };
 
+// 多继承中很容易引发二义性
 void test43() {
     std::cout << "sizeof(Son) = " << sizeof(Son) << std::endl;
     Son s1;

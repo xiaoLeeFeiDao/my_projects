@@ -150,3 +150,7 @@ ipch/
 .ccls-cache
 cmake-build-Release
 cmake-build-Debug
+.vscode/c_cpp_properties.json
+.gitignore
+.idea
+cmake-build-debug

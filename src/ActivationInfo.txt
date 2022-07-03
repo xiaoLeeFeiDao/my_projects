@@ -1,0 +1,13 @@
+# Offline activation file
+license_number:0130-982-090-6995
+installed_features:ARM.EW.COMPILER,1.16;ARM.EW.CRUN,1.16;ARM.EW.CSTAT,1.16;ARM.EW.CTRUST,1.16;ARM.EW.DEBUGGER,1.16;ARM.EW.LIBSRC,1.16;ARM.EW.LINKER,1.16;ARM.EW.MISRAC,1.16
+lock_ip:*1FTAZCKNXYXM4BY
+lock_mac:*1ANBNEAGDJZK8D2
+lock_disk:*14VPGVQWCA5GXRE
+lock_uuid:*1KWEHWJVYH9KAQU
+lock_uuid_host:*1RWD5HW75ND8FQZ
+lock_uuid_mac:*14488T3296V96JU
+lock_mac_host:*1ECH4UE6CDF28BQ
+lock_hdd:*1NB7FWX8X3QXQCB
+virtual:false
+# Offline activation
