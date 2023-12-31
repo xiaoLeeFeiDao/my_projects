@@ -53,13 +53,13 @@ static void sameNameFunc(float heigh, int age, string userName) //个数和顺�
 // static int sameNameFunc(int age)   //该处如果想成功定义，必须是对形参做个数、顺序或者参数类型这三种条件的构造，例如下句
 static int sameNameFunc(double age)
 {
-    return age;
+    return (int)age;
 }
 
 /**
- * @description: 
- * @param : 
- * @return: 
+ * @description:
+ * @param :
+ * @return:
  */
 static void reloadOfReference(int& arg) //如下调用传入实参如果为10，语义是int& arg = 10,是不通过的，由于引用必须是一个合法的内存空间，即堆区或者栈区数据
 {
@@ -76,8 +76,8 @@ static void reloadOfReference(const int& arg) //如下调用传入实参如果�
  * @description: 这里的重载是可以和上面两个重载同时存在的(符合入参的类型不同)，但是需要注意避免调用时存在的二义性
  * 情况1：调用如果为reloadOfRefrence(a);则(int& arg)和(int arg)同时都能编译，造成二义性
  * 情况2：调用如果为reloadOfRefrence(10);则(const int& arg)和(int arg)同时都能编译，造成二义性
- * @param : 
- * @return: 
+ * @param :
+ * @return:
  */
 /* static void reloadOfReference(int arg)
 {
@@ -87,15 +87,16 @@ static void reloadOfReference(const int& arg) //如下调用传入实参如果�
 
 /**
  * @description: 函数的重载遇到函数的默认参数
- * @param : 
- * @return: 
+ * @param :
+ * @return:
  */
 static void displayDemo(int a, int b = 10)
 {
     cout << "a = " << a << " b = " << b << endl;
     return;
 }
-static void displayDemo(int a)
+void displayDemo(int a);
+void displayDemo(int a)
 {
     cout << "a = " << a << endl;
     return;
@@ -114,8 +115,8 @@ static void reloadMeetDefaultArgs()
  *  3、形参的个数、顺序、参数类型都可作为重载的条件
  *  4、返回值是否可以作为重载的条件？不可以，因为这样会造成二义性
  *  5、对于引用的重载，形参加const和不加const也可以作为重载的条件
- * @param : 
- * @return: 
+ * @param :
+ * @return:
  */
 void test16()
 {

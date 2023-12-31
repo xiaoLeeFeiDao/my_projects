@@ -1,5 +1,5 @@
 #-----------------------------new config--------------------------------------
-cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 set(OBJECT_NAME "my_project" CACHE INTERNAL "default project name include all modules")
 project(${OBJECT_NAME})
 include(select_platform_property.cmake)
@@ -117,7 +117,7 @@ add_subdirectory(lib)
 
 
 #-----------------------------------------------------------------old config-----------
-#cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+#cmake_minimum_required(VERSION 3.5)
 #
 #set(PROJECT_NAME my_projects)
 #project(${PROJECT_NAME})

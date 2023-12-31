@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 macro(SUBDIRLIST_CUSTOM result curdir objDirName)
     file(GLOB children RELATIVE ${curdir} ${curdir}/*)
     set(dirlist "")

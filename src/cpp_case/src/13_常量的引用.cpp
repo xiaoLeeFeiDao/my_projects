@@ -11,9 +11,12 @@ using namespace std;
 
 /**
  * @description: 常量引用的非正常使用场景
- * @param : 
- * @return: 
+ * @param :
+ * @return:
  */
+//[[maybe_unused]] static void testExample01()  // [[maybe_unused]]是c++17中支持的属性，可以使用__attribute__((unused)) 这个是c++11和14的属性
+//static void testExample01() __attribute__((unused)); // 还是不支持，那就只能使用宏来控制了
+
 static void testExample01()
 {
     // int& ref = 10; // 此处为错误语法，因为引用必须引用一块合法的内存地址空间，堆区或者栈区，不能为常量区的地址。
@@ -26,9 +29,9 @@ static void testExample01()
 }
 
 /**
- * @description:常量引用的正常使用场景 
- * @param : 
- * @return: 
+ * @description:常量引用的正常使用场景
+ * @param :
+ * @return:
  */
 // static void showValue(int& a) //该处入参使用引用或者使用普通int类型变量，运行结果相同，使用引用的好处是未在栈区拷贝新数据，节省空间。但是有弊端：容易误操作
 static void showValue(const int& a)
@@ -47,12 +50,13 @@ static void testExample02()
 }
 
 /**
- * @description: 
- * @param : 
- * @return: 
+ * @description:
+ * @param :
+ * @return:
  */
 void test13()
 {
+    UNUSED(testExample01);
     testExample02();
     return;
 }

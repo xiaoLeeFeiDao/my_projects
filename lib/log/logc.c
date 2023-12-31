@@ -59,7 +59,7 @@ struct logc {
     time_formatter_t time_formatter;
     level_formatter_t level_formatter;
     binary_formatter_t binary_formatter;
-};
+}logc;
 
 formatter_result_t _default_level_formatter(LOGC_LOG_LEVEL level, char *buf, size_t buf_size) {
     formatter_result_t result = {buf, 0};

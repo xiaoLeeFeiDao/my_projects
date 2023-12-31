@@ -1,5 +1,5 @@
 project(cpp_case)
-cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
 
 include_directories(src)

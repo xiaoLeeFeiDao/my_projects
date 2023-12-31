@@ -1,5 +1,5 @@
 project(main.out)
-cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 aux_source_directory(. CURRENT_SRC_LIST)
 include(get_module_info.cmake)
 GetModules()

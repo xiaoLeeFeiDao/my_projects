@@ -53,8 +53,8 @@ static void testdefine()
  * ---------构造函数和析构函数的调用时机------------
  * 1、使用已创建好的对象初始化另一个对象
  * 2、
- * @param : 
- * @return: 
+ * @param :
+ * @return:
  */
 static void doWork(myClass c)
 {
@@ -78,6 +78,7 @@ void test18()
     // myClass c0(); //不可以这样调用无参构造函数，因为编译器会认为这是一个函数的声明
     // void testdefine();   //函数声明可以放入一个函数的定义中
 
+    UNUSED(testdefine);
     //第二种：显示法
     // myClass c2 = myClass(10);    //有参构造显示调用
     // myClass cl2 = myClass(c2);    //拷贝构造显示调用
@@ -119,6 +120,7 @@ void test18()
     // doWork中申请的临时对象(栈空间先进先出)才会被释放，也就是c8接管了doWork的返回地址。
     // myClass c8 = doWork2();
     // 如果doWork的返回值没有被接收，则doWork执行完后就释放了返回的对象
+    UNUSED(doWork);
     doWork2();
     cout << "doWork2 called done" << endl;
     return;

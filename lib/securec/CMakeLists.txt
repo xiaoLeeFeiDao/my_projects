@@ -1,6 +1,6 @@
 
 project(securec)
-cmake_minimum_required(VERSION 3.1...3.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 include_directories(./include)
 aux_source_directory(./src CURRENT_SRC_LIST)
 add_library(${PROJECT_NAME} SHARED ${CURRENT_SRC_LIST})

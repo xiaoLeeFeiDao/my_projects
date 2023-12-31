@@ -1,5 +1,5 @@
 /*
- * @Description: 
+ * @Description:
  * @Author: stone
  * @Date: 2020-01-19 19:21:43
  * @LastEditTime: 2020-03-05 12:15:44
@@ -59,6 +59,7 @@ void testEg7();
 
 void DrawMap();
 void PlayGame();
+#define UNUSED(x) (void)(x)
 #ifdef __cplusplus
 }
 #endif

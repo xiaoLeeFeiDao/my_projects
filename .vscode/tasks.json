@@ -1,0 +1,61 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "MinGW_build",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
+            "args": [
+                "-G MinGW Makefiles",
+                "-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER=C:/MinGW/bin/mingw32-gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/mingw32-g++.exe",
+                "-SD:/code/test_win11",
+                "-Bbuild"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "MinGW_make",
+            "command": "C:/MinGW/bin/mingw32-make.exe",
+            // "command":"C:/MinGW/msys/1.0/bin/make.exe",
+            "args": [
+                "-j4"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "MinGW cmake"
+            ]
+        },
+        {
+            "type": "shell",
+            "label": "Cygwin build",
+            "command": "C:/cygwin64/bin/make.exe",
+            "args": [
+                "-j4"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": []
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -7,7 +7,6 @@
  * @LastEditors  : stone
  */
 #include <iostream>
-#include <unistd.h>
 using namespace std;
 
 int map[9][11] = {
@@ -57,7 +56,9 @@ void DrawMap()
     }
     return;
 }
-static void PlayGame()
+void PlayGame();
+
+void PlayGame()
 {
     int r = 0, c = 0;
     for (size_t i = 0; i < 9; i++) {
@@ -69,8 +70,8 @@ static void PlayGame()
         }
     }
 
-    char* ch;
-    ch = getpass("");
+    char* ch = (char*)"hello";
+    //ch = getpass("");
     switch (*ch) {
     case 'w':
         if (map[r - 1][c] == 0) {
